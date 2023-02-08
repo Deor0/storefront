@@ -4,8 +4,21 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-django = "*"
-django-debug-toolbar = "*"
+django = "==4.1.6"
+django-debug-toolbar = "==3.8.1"
+asgiref = "==3.6.0"
+autopep8 = "==2.0.1"
+certifi = "==2022.12.7"
+distlib = "==0.3.6"
+filelock = "==3.9.0"
+platformdirs = "==2.6.2"
+pycodestyle = "==2.10.0"
+sqlparse = "==0.4.3"
+virtualenv = "==20.18.0"
+virtualenv-clone = "==0.5.7"
+pipenv = "==2023.2.4"
+pip = "*"
+mysqlclient = "*"
 
 [dev-packages]
 autopep8 = "*"
